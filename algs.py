@@ -41,8 +41,4 @@ def jarvismarch(A):
         else:
             H.append(P[right])
             del P[right]
-    return H   
-
-A = [[randint(-5, 5), randint(-5, 5)] for i in range(10)]
-
-print(jarvismarch(A))
+    return H
